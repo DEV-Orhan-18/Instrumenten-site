@@ -1,3 +1,4 @@
+@media screen and ( min-width: 600px) {
 /* Algemene instellingen */
 body {
     font-family: 'Roboto', Arial, sans-serif;
@@ -230,3 +231,4 @@ h6 {
     left: 10px; /* Links gepositioneerd zoals de andere koppen */
 }
 
+}
