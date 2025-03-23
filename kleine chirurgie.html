@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<div class="navbar-container">
+    <nav class="navbar">
+        <div class="menu" id="menu">
+            <a href="index.html">Scharen</a>
+            <a href="kleine chirurgie.html">Kleine chirurgie</a>
+            <a href="overig kleine chirurgie.html">Overig kleine chirurgie</a>
+            <a href="kno.html">KNO</a>
+            <a href="oogheelkunde.html">Oogheelkunde</a>
+            <a href="gynaecologie.html">Gynaecologie</a>
+            <a href="neurologie.html">Neurologie</a>
+        </div>
+    </nav>
+</div>
+<body>
+    <h3>Veelgebruikte Instrumenten bij kleine chirurgie</h3>
+    <div class="container">
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/chirurgisch-pincet.jpg" alt="Chirurgisch pincet">
+                </div>
+                <div class="card-back">
+                    <p>Chirurgisch pincet</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/splinterpincet.jpg" alt="Splinterpincet">
+                </div>
+                <div class="card-back">
+                    <p>Splinterpincet</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/anatomisch-pincet.jpg" alt="Anatomisch pincet">
+                </div>
+                <div class="card-back">
+                    <p>Anatomisch pincet</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/naaldvoerder-mathieu.jpg" alt="Naaldvoerder volgens Mathieu">
+                </div>
+                <div class="card-back">
+                    <p>Naaldvoerder volgens Mathieu</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/naaldvoerder-gillies-olsen.jpg" alt="Naaldvoerder volgens Gillies-Olsen">
+                </div>
+                <div class="card-back">
+                    <p>Naaldvoerder volgens Gillies-Olsen</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/wondspreider.jpg" alt="Wondspreider">
+                </div>
+                <div class="card-back">
+                    <p>Wondspreider</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/wondhaakje.jpg" alt="Wondhaakje">
+                </div>
+                <div class="card-back">
+                    <p>Wondhaakje</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/lemmethouder-lemmet11.jpg" alt="Lemmethouder en lemmet 11">
+                </div>
+                <div class="card-back">
+                    <p>Lemmethouder en lemmet 11</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/doekklem.jpg" alt="Doekklem">
+                </div>
+                <div class="card-back">
+                    <p>Doekklem</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/arterieklem-kocher.jpg" alt="Arterieklem volgens Kocher">
+                </div>
+                <div class="card-back">
+                    <p>Arterieklem volgens Kocher</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

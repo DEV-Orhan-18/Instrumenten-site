@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards - Instrumenten</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+
+<div class="navbar-container">
+    <nav class="navbar">
+        <div class="menu" id="menu">
+            <a href="index.html">Scharen</a>
+            <a href="kleine chirurgie.html">Kleine chirurgie</a>
+            <a href="overig kleine chirurgie.html">Overig kleine chirurgie</a>
+            <a href="kno.html">KNO</a>
+            <a href="oogheelkunde.html">Oogheelkunde</a>
+            <a href="gynaecologie.html">Gynaecologie</a>
+            <a href="neurologie.html">Neurologie</a>
+        </div>
+    </nav>
+</div>
+
+
+
+<body>
+    <h1>Flashcards - Instrumenten</h1>
+    <h2>Scharen</h2>
+    <div class="container">
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/prepareerschaar.jpg" alt="Prepareerschaar volgens Metzenbaum">
+                </div>
+                <div class="card-back">
+                    <p>Prepareerschaar volgens Metzenbaum</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/onthechtingsschaar.jpg" alt="Onthechtingsschaar">
+                </div>
+                <div class="card-back">
+                    <p>Onthechtingsschaar</p>
+                    <p>De onthechtingsschaar heeft één spits kort blad en één blad met aan de onderkant een uitholling aan het snijgedeelte. Deze schaar wordt gebruikt om hechtingen mee te verwijderen.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/stomp-stompe-schaar.jpg" alt="Stomp-stompe schaar">
+                </div>
+                <div class="card-back">
+                    <p>Stomp-stompe schaar</p>
+                    <p>De stomp-stompe schaar heeft afgeronde uiteinden en kan zowel gebruikt worden voor knippen als voor het spreiden van weefsels.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/verbandschaar.jpg" alt="Verbandschaar">
+                </div>
+                <div class="card-back">
+                    <p>Verbandschaar</p>
+                    <p>De verbandschaar volgens Lister wordt gebruikt voor het afknippen en doorknippen van verbandstoffen.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/spits-spitse-schaar.jpg" alt="Spits-spitse schaar">
+                </div>
+                <div class="card-back">
+                    <p>Spits-spitse schaar</p>
+                    <p>Een spits-spitse schaar is de grote uitvoering van de irisschaar en heeft twee korte spitse rechte bladen.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/irisschaar.jpg" alt="Irisschaar">
+                </div>
+                <div class="card-back">
+                    <p>Irisschaar</p>
+                    <p>De irisschaar is een kleine spits-spitse schaar die vooral geschikt is voor heel secuur werk. Wordt soms ook gebruikt om hechtingen te verwijderen, maar kan daardoor wel sneller stomp worden.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/spits-stompe-schaar.jpg" alt="Spits-stompe schaar">
+                </div>
+                <div class="card-back">
+                    <p>Spits-stompe schaar</p>
+                    <p>De spits-stompe schaar heeft twee korte rechte bladen, waarvan er één stomp is.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

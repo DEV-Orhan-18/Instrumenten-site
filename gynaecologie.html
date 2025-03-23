@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+
+
+<div class="navbar-container">
+    <nav class="navbar">
+        <div class="menu" id="menu">
+            <a href="index.html">Scharen</a>
+            <a href="kleine chirurgie.html">Kleine chirurgie</a>
+            <a href="overig kleine chirurgie.html">Overig kleine chirurgie</a>
+            <a href="kno.html">KNO</a>
+            <a href="oogheelkunde.html">Oogheelkunde</a>
+            <a href="gynaecologie.html">Gynaecologie</a>
+            <a href="neurologie.html">Neurologie</a>
+        </div>
+    </nav>
+</div>
+<body>
+    
+    <p class="h7">Instrumenten voor gynaecologisch onderzoek</p>
+    <div class="container">
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/uterusdilatator.jpg" alt="Uterusdilatator volgens Hégar">
+                </div>
+                <div class="card-back">
+                    <p>Uterusdilatator volgens Hégar</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/portioaanhaaktang.jpg" alt="Portioaanhaaktang volgens Schroeder">
+                </div>
+                <div class="card-back">
+                    <p>Portioaanhaaktang volgens Schroeder</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/uterussonde.jpg" alt="Uterussonde">
+                </div>
+                <div class="card-back">
+                    <p>Uterussonde</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/speculum-collin.jpg" alt="Speculum volgens Collin">
+                </div>
+                <div class="card-back">
+                    <p>Speculum volgens Collin</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/speculum-seyffert.jpg" alt="Speculum volgens Seyffert">
+                </div>
+                <div class="card-back">
+                    <p>Speculum volgens Seyffert</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/speculum-cusco.jpg" alt="Speculum volgens Cusco">
+                </div>
+                <div class="card-back">
+                    <p>Speculum volgens Cusco</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="IMG/speculum-doyen.jpg" alt="Speculum volgens Doyen">
+                </div>
+                <div class="card-back">
+                    <p>Speculum volgens Doyen</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+
+</body>
+</html>
